@@ -3,6 +3,7 @@ const prompt=require('prompt-sync')();
 let nombre=Number(prompt('entrer le nombre à vérifier :'));
 
 let premier=true;
+
 if(nombre>=2){
     for(let i=2; i<nombre; i++){
         if(nombre % i ==0){              
