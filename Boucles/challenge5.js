@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")();
 
-let n = Number(prompt("Entrer un entier n : "));
+let n = Number(prompt("Entrer un entier n : ")); //7
 
 function estPremier(nb) {
     if (nb < 2) return false;
