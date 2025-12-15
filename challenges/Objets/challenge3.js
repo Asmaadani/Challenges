@@ -7,8 +7,9 @@
 
 // 2____________________________________________
 // const produit={
-//     objet:[{nom:"khmira",prix:10,quantite:3},
-//         {nom:"BIMO",prix:20,quantite:5},
+//     objet:[
+//          {nom:"khmira",prix:10,quantite:3},
+//          {nom:"BIMO",prix:20,quantite:5},
 //     ],
 
 //     Total(){
@@ -45,11 +46,11 @@
 //             }
 //         }
 // 5__________________________________________________
-function cloner(obj) {
-  return { ...obj };
-}
+// function cloner(obj) {
+//   return { ...obj };
+// }
 
-const premier = { nom: "asmaa", age: 20 };
-const copie = cloner(premier);
+// const premier = { nom: "asmaa", age: 20 };
+// const copie = cloner(premier);
 
-console.log(copie);
+// console.log(copie);
