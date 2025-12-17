@@ -4,7 +4,7 @@ let historique = [];
 
 function addition(nb1, nb2){
     let total = nb1 + nb2;
-    console.log('nb1 + nb2 =', total);
+    console.log(`${nb1}+${nb2}=${total}`);
     historique.push(total);
 }
 
@@ -39,6 +39,7 @@ function puissance(nb1, nb2){
 function racine_carrée(nb){
     if(nb < 0){
         console.log("Erreur : faut être un nombre positif");
+        return;
     } else {
         let total = Math.sqrt(nb);
         console.log('√nb1 =', total);
